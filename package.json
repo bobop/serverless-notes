@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/bobop/serverless-notes/issues"
   },
-  "homepage": "https://github.com/bobop/serverless-notes#readme"
+  "homepage": "https://github.com/bobop/serverless-notes#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.152.0"
+  },
+  "dependencies": {
+    "uuid": "^3.1.0"
+  }
 }
