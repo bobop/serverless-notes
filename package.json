@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/bobop/serverless-notes#readme",
   "devDependencies": {
-    "aws-sdk": "^2.152.0",
+    "aws-sdk": "^2.153.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
