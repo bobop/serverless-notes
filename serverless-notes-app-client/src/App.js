@@ -4,7 +4,7 @@ import { Nav, NavItem, Navbar } from "react-bootstrap";
 import Routes from "./Routes";
 import RouteNavItem from "./components/RouteNavItem";
 import "./App.css";
-import { authUser } from "./libs/awsLib";
+import { authUser, signOutUser } from "./libs/awsLib";
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +21,8 @@ class App extends Component {
   }
 
   handleLogout = event => {
+    signOutUser();
+
     this.userHasAuthenticated(false);
   }
 
